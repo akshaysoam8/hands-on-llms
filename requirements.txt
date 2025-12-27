@@ -1,0 +1,44 @@
+# Core TensorFlow for Apple Silicon
+tensorflow-macos==2.16.2
+tensorflow-metal==1.2.0
+
+# Data utilities
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow-datasets==4.9.9
+
+# NLP utilities
+keras-nlp==0.9.3   # works with Keras 3 / TF 2.18
+transformers==4.44.0
+sentencepiece
+
+# TF-Hub (works for modern modules, NOT USE v4)
+tensorflow-hub==0.16.1
+
+# Jupyter environment
+# jupyter
+# ipykernel
+
+torch==2.3.1
+# transformers==4.41.2
+safetensors==0.4.3
+huggingface_hub==0.24.6
+protobuf
+
+tensorflow-serving-api
+
+accelerate
+
+# Core Jupyter stack
+jupyter>=1.0.0
+notebook>=7.0.0
+jupyterlab>=4.0.0
+
+# Widgets required for tqdm notebook progress bars
+ipywidgets>=8.1.0
+widgetsnbextension>=4.0.0
+
+# tqdm progress bar
+tqdm>=4.66.0
